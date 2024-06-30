@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul,
+li {
+    display: inline;
+    text-align: center;
+    padding: 6px;
+
+}
+
+.section2__image {
+    width: 250px;
+    height: 300px;
+}
+
+.section2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.section2__box1,
+.section2__box2,
+.section2__box3,
+.section2__box4 {
+    display: inline-block;
+    border: 2px solid black;
+}
+
+.section2__btn1 {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.section2__btn1:hover {
+    background-color: rgb(50, 230, 50);
+    cursor: pointer;
+}
+
+.section3 {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+
+
+}
+
+.section3__form {
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+
+}
+
+input {
+    border: none;
+    padding: 3px;
+    outline: none;
+}
+
+td {
+    padding: 2px;
+}
+
+.section3__btn2 {
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: yellow;
+    border: none;
+    border: 1px solid gainsboro;
+    color: black;
+    font-size: 15px;
+}
+
+.section2__desc,
+.section2__content {
+    padding: 3px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.section2__desc {
+    font-family: "Open Sans", sans-serif;
+
+}
